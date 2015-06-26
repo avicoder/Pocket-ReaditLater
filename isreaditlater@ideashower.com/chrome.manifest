@@ -1,0 +1,39 @@
+locale isreaditlater en-US jar:chrome/isreaditlater.jar!/locale/en-US/
+
+content isreaditlater jar:chrome/isreaditlater.jar!/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://isreaditlater/content/list.xul
+overlay chrome://browser/content/browser.xul chrome://isreaditlater/content/overlay.xul
+overlay chrome://browser/content/places/places.xul chrome://isreaditlater/content/placesOverlay.xul
+skin isreaditlater classic/1.0 jar:chrome/isreaditlater.jar!/skin/
+style chrome://global/content/customizeToolbar.xul chrome://isreaditlater/skin/toolbar.css
+
+interfaces components/RILAPIRequest.xpt
+component {11F8F838-A638-11DF-8B18-917CDFD72085} components/RILAPIRequest.js
+contract @ril.ideashower.com/rilapirequest;1 {11F8F838-A638-11DF-8B18-917CDFD72085}
+
+interfaces components/RILassetManager.xpt
+component {99810454-07CB-11E0-8E55-23ADDFD72085} components/RILassetManager.js
+contract @ril.ideashower.com/rilassetmanager;1 {99810454-07CB-11E0-8E55-23ADDFD72085}
+
+interfaces components/RILtextDownloader.xpt
+component {40A8E616-A638-11DF-8B8D-C57CDFD72085} components/RILtextDownloader.js
+contract @ril.ideashower.com/riltextdownloader;1 {40A8E616-A638-11DF-8B8D-C57CDFD72085}
+
+interfaces components/RILwebDownloader.xpt
+component {555101E8-A638-11DF-B51F-C97CDFD72085} components/RILwebDownloader.js
+contract @ril.ideashower.com/rilwebdownloader;1 {555101E8-A638-11DF-B51F-C97CDFD72085}
+
+component {66030586-A638-11DF-ABFA-E67CDFD72085} components/RILdelegate.js
+contract @ril.ideashower.com/rildelegate;1 {66030586-A638-11DF-ABFA-E67CDFD72085}
+
+component {74ECF8EA-A638-11DF-8025-EA7CDFD72085} components/RILlist.js
+contract @ril.ideashower.com/rillist;1 {74ECF8EA-A638-11DF-8025-EA7CDFD72085}
+
+component {85C02A70-A638-11DF-90FB-FE7CDFD72085} components/RILofflineQueue.js
+contract @ril.ideashower.com/rilofflinequeue;1 {85C02A70-A638-11DF-90FB-FE7CDFD72085}
+
+component {95C7CB1C-A638-11DF-9F85-197DDFD72085} components/RILprefs.js
+contract @ril.ideashower.com/rilprefs;1 {95C7CB1C-A638-11DF-9F85-197DDFD72085}
+
+component {B26FDE6C-A638-11DF-AE7E-527DDFD72085} components/RILsync.js
+contract @ril.ideashower.com/rilsync;1 {B26FDE6C-A638-11DF-AE7E-527DDFD72085}

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+
+        <!-- Required Items -->
+        <em:id>isreaditlater@ideashower.com</em:id>
+        <em:name>Pocket</em:name>
+        <em:version>3.0.6</em:version> <!-- Update RILdelegate.v as well -->
+		<em:type>2</em:type>
+		<em:unpack>true</em:unpack>
+
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>4.0</em:minVersion>
+                <em:maxVersion>35.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+        <!-- Optional Items -->
+        <em:creator>Read It Later, Inc</em:creator>
+        <em:description>Save pages for later.</em:description>  <!-- Update locale as well -->
+        <em:homepageURL>http://getpocket.com</em:homepageURL>
+		<em:iconURL>chrome://isreaditlater/skin/icon.png</em:iconURL>
+		<em:optionsURL>chrome://isreaditlater/content/options.xul</em:optionsURL>
+
+    </Description>
+</RDF>

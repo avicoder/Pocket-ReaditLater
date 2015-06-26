@@ -1,0 +1,1 @@
+pref("extensions.isreaditlater@ideashower.com.description", "chrome://isreaditlater/locale/jsstrings.properties");
