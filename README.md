@@ -9,3 +9,5 @@
 - Use "**Disable Hello, Pocket & Reader+**" Extension to turn off default Pocket button. 
 
 
+## Here is XPI file :
+- https://mega.nz/#!T5RjHZyb!yXz5Wj-x7lWdRKbcCaMQ0_lZfpI828spmIm_sOEX5Ng
